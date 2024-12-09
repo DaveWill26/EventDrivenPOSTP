@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConfirmationWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,12 @@
     </Compile>
     <Compile Include="GCashQRCode.Designer.cs">
       <DependentUpon>GCashQRCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JibsAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JibsAdmin.Designer.cs">
+      <DependentUpon>JibsAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -106,6 +118,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoundButton.cs" />
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConfirmationWindow.resx">
       <DependentUpon>ConfirmationWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GCashQRCode.resx">
       <DependentUpon>GCashQRCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JibsAdmin.resx">
+      <DependentUpon>JibsAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -158,6 +176,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Point of Sale - Milk Tea.png" />
+    <None Include="Resources\customer_page %281%29.png" />
+    <None Include="Resources\inventory_page %281%29.png" />
+    <None Include="Resources\sales_page %281%29.png" />
+    <None Include="Resources\cancel_bttn.png" />
+    <None Include="Resources\login_bttn.png" />
+    <None Include="Resources\Admin Verification.png" />
+    <None Include="Resources\Admin.png" />
     <None Include="Resources\Point of Sale - Milk Tea.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
