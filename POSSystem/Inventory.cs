@@ -76,7 +76,7 @@ namespace POSSystem
             dataGridView.ColumnHeadersVisible = false;
             panelList.Controls.Clear();
             panelList.Controls.Add(dataGridView);
-
+            
         }
 
         private void btnAddOns_Click(object sender, EventArgs e)
@@ -128,6 +128,8 @@ namespace POSSystem
             dataGridView1.ColumnHeadersVisible = false;
             panelList2.Controls.Clear();
             panelList2.Controls.Add(dataGridView1);
+            panelList2.Show();
+            
         }
 
         private void btnUtilities_Click(object sender, EventArgs e)
@@ -179,6 +181,7 @@ namespace POSSystem
             dataGridView2.ColumnHeadersVisible = false;
             panelList3.Controls.Clear();
             panelList3.Controls.Add(dataGridView2);
+         
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -195,7 +198,6 @@ namespace POSSystem
 
         private void btnADM_Click(object sender, EventArgs e)
         {
-
         }
     }
 }

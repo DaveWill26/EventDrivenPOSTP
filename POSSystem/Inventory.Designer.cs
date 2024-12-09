@@ -36,11 +36,11 @@
             this.btnADM = new System.Windows.Forms.Button();
             this.btnSET = new System.Windows.Forms.Button();
             this.panelList = new System.Windows.Forms.Panel();
-            this.btnMain = new System.Windows.Forms.Button();
+            this.panelList3 = new System.Windows.Forms.Panel();
             this.panelList2 = new System.Windows.Forms.Panel();
+            this.btnMain = new System.Windows.Forms.Button();
             this.btnAddOns = new System.Windows.Forms.Button();
             this.btnUtilities = new System.Windows.Forms.Button();
-            this.panelList3 = new System.Windows.Forms.Panel();
             this.button18 = new System.Windows.Forms.Button();
             this.panelList.SuspendLayout();
             this.SuspendLayout();
@@ -122,6 +122,20 @@
             this.panelList.Size = new System.Drawing.Size(1167, 572);
             this.panelList.TabIndex = 59;
             // 
+            // panelList3
+            // 
+            this.panelList3.Location = new System.Drawing.Point(0, 3);
+            this.panelList3.Name = "panelList3";
+            this.panelList3.Size = new System.Drawing.Size(1164, 566);
+            this.panelList3.TabIndex = 0;
+            // 
+            // panelList2
+            // 
+            this.panelList2.Location = new System.Drawing.Point(3, 0);
+            this.panelList2.Name = "panelList2";
+            this.panelList2.Size = new System.Drawing.Size(1161, 572);
+            this.panelList2.TabIndex = 0;
+            // 
             // btnMain
             // 
             this.btnMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -132,13 +146,6 @@
             this.btnMain.Text = "MAIN";
             this.btnMain.UseVisualStyleBackColor = true;
             this.btnMain.Click += new System.EventHandler(this.btnMain_Click);
-            // 
-            // panelList2
-            // 
-            this.panelList2.Location = new System.Drawing.Point(3, 0);
-            this.panelList2.Name = "panelList2";
-            this.panelList2.Size = new System.Drawing.Size(1161, 572);
-            this.panelList2.TabIndex = 0;
             // 
             // btnAddOns
             // 
@@ -161,13 +168,6 @@
             this.btnUtilities.Text = "UTILITIES";
             this.btnUtilities.UseVisualStyleBackColor = true;
             this.btnUtilities.Click += new System.EventHandler(this.btnUtilities_Click);
-            // 
-            // panelList3
-            // 
-            this.panelList3.Location = new System.Drawing.Point(0, 0);
-            this.panelList3.Name = "panelList3";
-            this.panelList3.Size = new System.Drawing.Size(1164, 569);
-            this.panelList3.TabIndex = 0;
             // 
             // button18
             // 
