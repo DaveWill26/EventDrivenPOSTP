@@ -14,8 +14,8 @@ namespace POSSystem
         }
         private void btnCancelConfirmation_Click(object sender, EventArgs e)
         {            
-            mainForm.ClearPanel6(); // this is to clear Panel6
-            mainForm.Show(); // this is to show the MainForm again           
+            mainForm.ClearPanel6(); 
+            mainForm.Show();         
             this.Close();
         }
         private void btnConfirmConfirmation_Click(object sender, EventArgs e)

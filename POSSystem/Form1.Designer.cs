@@ -48,12 +48,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnJasmine = new System.Windows.Forms.Button();
             this.btnAlmond = new System.Windows.Forms.Button();
-            this.btnMilkTea = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.btnMaximize = new System.Windows.Forms.Button();
-            this.btnMinimize = new System.Windows.Forms.Button();
-            this.btnIcedCoffee = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnIrish = new System.Windows.Forms.Button();
             this.btnPumpkin = new System.Windows.Forms.Button();
@@ -71,6 +65,12 @@
             this.btnLavender = new System.Windows.Forms.Button();
             this.btnCaramel = new System.Windows.Forms.Button();
             this.btnKapeBrusko = new System.Windows.Forms.Button();
+            this.btnMilkTea = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.btnMaximize = new System.Windows.Forms.Button();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnIcedCoffee = new System.Windows.Forms.Button();
             this.btnFruitTea = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnCoconutTea = new System.Windows.Forms.Button();
@@ -185,6 +185,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.AdminPanel = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -195,6 +200,7 @@
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel9.SuspendLayout();
+            this.AdminPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnOkinawa
@@ -381,6 +387,7 @@
             this.panel1.Controls.Add(this.btnTaro);
             this.panel1.Controls.Add(this.btnDoubleDutch);
             this.panel1.Controls.Add(this.btnOkinawa);
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(150, 219);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(698, 541);
@@ -432,84 +439,6 @@
             this.btnAlmond.UseVisualStyleBackColor = false;
             this.btnAlmond.Click += new System.EventHandler(this.btnAlmond_Click);
             // 
-            // btnMilkTea
-            // 
-            this.btnMilkTea.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnMilkTea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnMilkTea.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMilkTea.Location = new System.Drawing.Point(155, 167);
-            this.btnMilkTea.Name = "btnMilkTea";
-            this.btnMilkTea.Size = new System.Drawing.Size(133, 45);
-            this.btnMilkTea.TabIndex = 1;
-            this.btnMilkTea.Text = "Milk Tea";
-            this.btnMilkTea.UseVisualStyleBackColor = false;
-            this.btnMilkTea.Click += new System.EventHandler(this.btnMilkTea_Click);
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(83, 40);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(104, 28);
-            this.button18.TabIndex = 2;
-            this.button18.Text = "Logout";
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
-            // button19
-            // 
-            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button19.BackColor = System.Drawing.SystemColors.Control;
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.Location = new System.Drawing.Point(1312, -1);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(25, 24);
-            this.button19.TabIndex = 3;
-            this.button19.Text = "X";
-            this.button19.UseVisualStyleBackColor = false;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
-            // 
-            // btnMaximize
-            // 
-            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMaximize.BackgroundImage")));
-            this.btnMaximize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnMaximize.Location = new System.Drawing.Point(1289, -1);
-            this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(25, 24);
-            this.btnMaximize.TabIndex = 4;
-            this.btnMaximize.UseVisualStyleBackColor = true;
-            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
-            // 
-            // btnMinimize
-            // 
-            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimize.BackColor = System.Drawing.SystemColors.Control;
-            this.btnMinimize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize.BackgroundImage")));
-            this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnMinimize.Location = new System.Drawing.Point(1267, -1);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(25, 25);
-            this.btnMinimize.TabIndex = 5;
-            this.btnMinimize.UseVisualStyleBackColor = false;
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
-            // 
-            // btnIcedCoffee
-            // 
-            this.btnIcedCoffee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnIcedCoffee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIcedCoffee.Location = new System.Drawing.Point(294, 167);
-            this.btnIcedCoffee.Name = "btnIcedCoffee";
-            this.btnIcedCoffee.Size = new System.Drawing.Size(128, 45);
-            this.btnIcedCoffee.TabIndex = 6;
-            this.btnIcedCoffee.Text = "Iced Coffee";
-            this.btnIcedCoffee.UseVisualStyleBackColor = false;
-            this.btnIcedCoffee.Click += new System.EventHandler(this.btnIcedCoffee_Click);
-            // 
             // panel2
             // 
             this.panel2.AutoScroll = true;
@@ -530,7 +459,7 @@
             this.panel2.Controls.Add(this.btnLavender);
             this.panel2.Controls.Add(this.btnCaramel);
             this.panel2.Controls.Add(this.btnKapeBrusko);
-            this.panel2.Location = new System.Drawing.Point(150, 218);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(698, 542);
             this.panel2.TabIndex = 18;
@@ -711,6 +640,84 @@
             this.btnKapeBrusko.TabIndex = 5;
             this.btnKapeBrusko.UseVisualStyleBackColor = true;
             this.btnKapeBrusko.Click += new System.EventHandler(this.btnKapeBrusko_Click);
+            // 
+            // btnMilkTea
+            // 
+            this.btnMilkTea.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnMilkTea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnMilkTea.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMilkTea.Location = new System.Drawing.Point(155, 167);
+            this.btnMilkTea.Name = "btnMilkTea";
+            this.btnMilkTea.Size = new System.Drawing.Size(133, 45);
+            this.btnMilkTea.TabIndex = 1;
+            this.btnMilkTea.Text = "Milk Tea";
+            this.btnMilkTea.UseVisualStyleBackColor = false;
+            this.btnMilkTea.Click += new System.EventHandler(this.btnMilkTea_Click);
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Location = new System.Drawing.Point(83, 40);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(104, 28);
+            this.button18.TabIndex = 2;
+            this.button18.Text = "Logout";
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button19
+            // 
+            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button19.BackColor = System.Drawing.SystemColors.Control;
+            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.Location = new System.Drawing.Point(1312, -1);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(25, 24);
+            this.button19.TabIndex = 3;
+            this.button19.Text = "X";
+            this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
+            // btnMaximize
+            // 
+            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMaximize.BackgroundImage")));
+            this.btnMaximize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMaximize.Location = new System.Drawing.Point(1289, -1);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(25, 24);
+            this.btnMaximize.TabIndex = 4;
+            this.btnMaximize.UseVisualStyleBackColor = true;
+            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimize.BackColor = System.Drawing.SystemColors.Control;
+            this.btnMinimize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize.BackgroundImage")));
+            this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMinimize.Location = new System.Drawing.Point(1267, -1);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(25, 25);
+            this.btnMinimize.TabIndex = 5;
+            this.btnMinimize.UseVisualStyleBackColor = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // btnIcedCoffee
+            // 
+            this.btnIcedCoffee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnIcedCoffee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIcedCoffee.Location = new System.Drawing.Point(294, 167);
+            this.btnIcedCoffee.Name = "btnIcedCoffee";
+            this.btnIcedCoffee.Size = new System.Drawing.Size(128, 45);
+            this.btnIcedCoffee.TabIndex = 6;
+            this.btnIcedCoffee.Text = "Iced Coffee";
+            this.btnIcedCoffee.UseVisualStyleBackColor = false;
+            this.btnIcedCoffee.Click += new System.EventHandler(this.btnIcedCoffee_Click);
             // 
             // btnFruitTea
             // 
@@ -1698,6 +1705,7 @@
             this.btnPOS.Size = new System.Drawing.Size(100, 129);
             this.btnPOS.TabIndex = 52;
             this.btnPOS.UseVisualStyleBackColor = true;
+            this.btnPOS.Click += new System.EventHandler(this.btnPOS_Click_1);
             // 
             // btnIMS
             // 
@@ -1743,6 +1751,7 @@
             this.btnADM.Size = new System.Drawing.Size(100, 130);
             this.btnADM.TabIndex = 54;
             this.btnADM.UseVisualStyleBackColor = true;
+            this.btnADM.Click += new System.EventHandler(this.btnADM_Click);
             // 
             // btnSET
             // 
@@ -2067,6 +2076,60 @@
             this.button3.Text = "Take out";
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // AdminPanel
+            // 
+            this.AdminPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AdminPanel.BackgroundImage")));
+            this.AdminPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.AdminPanel.Controls.Add(this.label7);
+            this.AdminPanel.Controls.Add(this.button6);
+            this.AdminPanel.Controls.Add(this.button5);
+            this.AdminPanel.Controls.Add(this.button4);
+            this.AdminPanel.Location = new System.Drawing.Point(97, 85);
+            this.AdminPanel.Name = "AdminPanel";
+            this.AdminPanel.Size = new System.Drawing.Size(1240, 767);
+            this.AdminPanel.TabIndex = 66;
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(279, 27);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(264, 78);
+            this.label7.TabIndex = 3;
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.Location = new System.Drawing.Point(877, 126);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(267, 130);
+            this.button6.TabIndex = 2;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.Location = new System.Drawing.Point(590, 125);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(275, 132);
+            this.button5.TabIndex = 1;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Location = new System.Drawing.Point(309, 124);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(267, 134);
+            this.button4.TabIndex = 0;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // POS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2075,14 +2138,15 @@
             this.BackgroundImage = global::POSSystem.Properties.Resources.Point_of_Sale___Milk_Tea;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1336, 881);
+            this.Controls.Add(this.AdminPanel);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel8);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel6);
             this.Controls.Add(this.btnSET);
             this.Controls.Add(this.btnADM);
             this.Controls.Add(this.btnREP);
@@ -2094,9 +2158,8 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtCustomerName);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnProceedPayment1);
             this.Controls.Add(this.btnCancel1);
             this.Controls.Add(this.btnConfirm1);
@@ -2146,6 +2209,7 @@
             this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel9.ResumeLayout(false);
+            this.AdminPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2309,6 +2373,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel AdminPanel;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
