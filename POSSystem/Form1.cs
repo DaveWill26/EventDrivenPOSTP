@@ -51,6 +51,7 @@
                 panel7.Visible = false;
                 panel8.Visible = false;
                 panel9.Visible = false;
+                
             //panelIMS.Visible = false;
 
             lblQty.Text = "1";
@@ -96,6 +97,9 @@
                 panel7.Visible = false;
                 panel8.Visible = false;
                 panel9.Visible = false;
+
+                //This is my Panel change
+                panelAdmin.Visible = false;
 
             panelToShow.Visible = true;
             }
@@ -635,6 +639,20 @@
             ConfirmationWindow confirmation = new ConfirmationWindow();
             confirmation.Show();
             this.Hide();
+        }
+
+
+
+        //This is for the admin function
+
+        private void btnADM_Click(object sender, EventArgs e)
+        {
+            panelAdmin.BringToFront();
+            //panelAdmin.Visible = true;
+
+            AdminLogin adlog = new AdminLogin(); 
+            adlog.Show();
+
         }
     }
 }
